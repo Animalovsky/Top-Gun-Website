@@ -1,0 +1,372 @@
+/* Fonts imported from google library */
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:700);
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
+/* General styling */
+body {
+	margin:0px;
+	font-family: 'Fira Sans', sans-serif;
+	background-color:#f3f9ff;
+	color:#130f30;
+}
+p {
+	font-size:1.1em;
+	font-weight: 400;
+}
+h1 {
+	font-weight: 700;
+	font-size:3em;
+}
+h2 {
+	font-weight: 700;
+	font-size:1.2em;
+}
+a:hover{
+  color:#D46A6A;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+section {
+	line-height: 1.5em;
+	font-size: 1em;
+	width: 60%;
+	margin: 0 auto;
+	letter-spacing: 0.05em;
+}
+.heading-icon{
+	text-align:center;
+}
+
+.icon {
+	padding-top: 150px;
+}
+
+/* Header */
+header {
+    background: #0d181e;
+	opacity: 0.85;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+	position:absolute;
+	z-index:10;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-size:1.1em;
+	
+	
+}
+.header2 {
+    background: #0d181e;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+	position:absolute;
+	z-index:10;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-size:1.1em;
+	
+}
+
+/* Navigation */
+nav ul{
+	overflow: hidden;
+	color: white;
+	padding: 0;
+	text-align: center;
+	margin: 0px;
+	font-size: 0.8em;
+	-webkit-transition: max-height 0.4s;
+	-ms-transition: max-height 0.4s;
+	-moz-transition: max-height 0.4s;
+	-o-transition: max-height 0.4s;
+	transition: max-height 0.4s;
+}
+nav ul li{
+	display: inline-block;
+	padding:15px;
+}
+nav ul li img{
+	display: inline-block;
+	padding-top:-15px;
+}
+nav ul li:hover{
+	color:#D46A6A;
+}
+.active {
+	font-weight:700;
+	color:#A0CEE4;
+}
+.handle {
+	display: none;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	box-sizign: border-box;
+	cursor: pointer;
+	color: white;
+	display: none;
+	float:left;
+	padding-left:10px;
+}
+
+/* Form */
+.form {
+	margin-left:20%;
+}
+.form input {
+	width:70%;
+	height:1.5em;
+	font-size:1.2em;
+	border:1px solid rgba(0, 0, 0, .2);;
+}
+.form select {
+	width:70%;
+	height:1.5em;
+	font-size:1.2em;
+	border:1px solid rgba(0, 0, 0, .2);
+}
+.form span input {
+	width:140px;
+	height:50px;
+	opacity:1;
+}
+
+
+/* Sections */
+.actor {
+	padding:0% 5% 5% 5%;
+    float: left;
+    width: 15%;
+	text-align:center;
+	height:100%;
+}
+.actor p {
+	letter-spacing: 0.02em;
+	height:260px;
+	
+}
+.heading-icon img{
+	max-height:20%;
+	max-width: 15%;	
+}
+.column-4{
+	float: left;
+	width: 33.33333333%;
+	text-align:center;
+	padding-top:30px;	
+}
+.small{
+	max-height:20%;
+	max-width: 15%;	
+}
+.column-4 p{
+	padding-right: 120px;
+	padding-left: 120px;
+	text-align:center;
+	padding-bottom:50px;
+	letter-spacing: 0.05em;
+	height:70px;
+}
+.production-team {
+	clear:left;
+	text-align:center;
+}
+.trailer-section {
+	text-align:center;
+	max-width:60%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/* Promotional code */
+.promotional-code-section{
+	margin-top:10px;
+	background-image: url(../images/premiere.jpg);
+	background-repeat: no-repeat;
+	clear:both;
+	background-size:cover;
+    background-repeat:   no-repeat;
+    background-position: center center;  
+	padding-bottom:3em;
+	padding-top:3em;
+	text-align:center;
+	color:#fff;
+}
+
+/* Font-awesome styles */
+.fa fa-star{
+	padding-right:10px;
+}
+
+/* Footer */
+footer {
+    background: #0d181e;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+	color:#fff;
+	clear:left;
+	font-size:0.8em;
+	letter-spacing:0.1em;
+}
+footer ul li{
+	display: inline-block;
+	padding: 20px 20px 20px 20px;
+
+}
+footer ul{
+	overflow: hidden;
+	color: white;
+	padding: 0;
+	text-align: center;
+	margin: 0px;
+	font-size: 0.8em;
+	-webkit-transition: max-height 0.4s;
+	-ms-transition: max-height 0.4s;
+	-moz-transition: max-height 0.4s;
+	-o-transition: max-height 0.4s;
+	transition: max-height 0.4s;
+}
+/* Responsive Syles */
+@media screen and (max-width: 1560px){
+	.actor p {
+		letter-spacing: 0.02em;
+		height:300px;
+	}
+}
+@media screen and (max-width: 1360px){
+/* Sections */
+	.column-4 p{
+		padding-right: 60px;
+		padding-left: 60px;
+		text-align:center;
+		height:70px;
+	}
+	.actor {
+		padding:0% 9% 5% 9%;
+		float: left;
+		width: 31%;
+		text-align:center;
+	}
+	.actor p {
+		letter-spacing: 0.02em;
+		height:100%;
+}
+}
+
+@media screen and (max-width: 880px){
+/* Header */
+	header {
+		background: #0d181e;
+		opacity:1;
+		width: 100%;
+		text-align: center;
+		padding: 0px 0;
+		padding-top:10px;
+		position:relative;
+	}
+	.header2 {
+		background: #0d181e;
+		opacity:1;
+		width: 100%;
+		text-align: center;
+		padding: 0px 0;
+		padding-top:10px;
+		position:relative;
+	}
+/* Navigation */
+	nav ul{
+		max-height: 0px;
+	}
+	nav ul li{
+		box-sizing: border-box;
+		width:100%;
+		padding: 15px;
+		text-align:center;
+		background:#152730;
+	}
+	.handle {
+		display: block;
+	}
+	.handle p{
+		text-align:center;
+	}
+/* Sections */
+	.column-4{
+		float: left;
+		width: 100%;
+		text-align:center;
+		padding-top:20px;
+	}
+	.column-4 p{
+		height:100%;
+	}
+	h1{
+		font-size:2.5em;
+	}
+	h2{
+		font-size:1em;
+	}
+	p {
+		font-size:0.9em;
+	}
+/* General */	
+	.heading-icon{
+		text-align:center;
+		padding-top:20px;
+	}
+	.showing {
+		max-height: 21em;
+	}
+	.logo{
+		padding-right:55px;
+		
+	}
+	.icon {
+		padding-top: 0px;
+	}
+/* Promotional code */
+	.promotional-code-section{
+		margin-top:10px;
+		background-image: url(../images/premiere.jpg);
+		clear:both;
+		text-align:center;
+	
+	}
+	.promotional-code-section h1{
+		font-size:1em;
+	}
+}
+
+@media screen and (max-width: 600px){
+/* Section */	
+	.column-4 p{
+		padding-right: 60px;
+		padding-left: 60px;
+	}
+	.actor {
+		margin:3%;
+		float: left;
+		width: 75%;
+		text-align:center;
+	}
+/* Promotional code */
+	.promotional-code-section{
+		margin-top:10px;
+		background-image: url(../images/premiere.jpg);
+		clear:both;
+		text-align:center;	
+	}
+	.promotional-code-section h1{
+		font-size:1em;	
+	}
+/* Footer */
+	footer{
+		clear:both;
+	}
+}

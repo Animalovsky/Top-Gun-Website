@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!--Favicon-->
+		<link rel="shortcut icon" href="images/favicon.png" alt="Top Gun FavIcon." />
+	
+		<!--Metadata-->
+		<title>TOP GUN | TICKETS</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name=viewport content="width=device-width, initial-scale=1">
+	
+		<!--Stylesheets-->
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/sss.css" type="text/css" media="all">
+	
+		<!--Jquery scripts-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="js/sss.min.js"></script>
+		<script type="text/javascript" src="fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+	
+		<!-- fancyBox styles. -->
+		<link rel="stylesheet" href="fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+		<link rel="stylesheet" href="fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+		<link rel="stylesheet" href="helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+		<link rel="stylesheet" href="fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+	
+		<!-- fancyBox Jquery. -->
+		<script type="text/javascript" src="fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+		<script type="text/javascript" src="helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+	
+		<!-- fancyBox jquery helpers(buttons, images, media). -->
+		<script type="text/javascript" src="fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+		<script type="text/javascript" src="fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+		<script type="text/javascript" src="fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+	</head>
+	<body>
+	<!--Header-->
+		<div class="header2">
+			<!--Logo-->
+			<div class="logo">
+				<a href="index.html"><img src="images/logo.png" alt="Logo of the Top Gun official website."></a>
+				<!--Handle displays on mobile version-->
+				<div class="handle">
+					<img src="images/menu-icon.png" alt="Icon menu, comes up on mobile version of the website.">
+				</div>
+			</div>
+		<!--Navigation-->	
+			<nav>		
+				<ul>
+					<li><a href="index.html">home</a></li>
+					<li><a href="story.html">story</a></li>
+					<li><a href="cast.html">cast</a></li>
+					<li class="active"><a href="tickets.html">tickets</a></li>
+					<li><a href="downloads.html">downloads</a></li>
+					<li><a href="https://www.facebook.com/Top-Gun-The-Movie-457698817752122/?ref=aymt_homepage_panel" alt="Facebook icon."><i class="fa fa-facebook-official"></i></a></li>
+				</ul>
+			</nav>
+		</div>
+		
+	<!--Main page content-->
+	<!--Tickets heading with icon-->
+		<div class="heading-icon">
+			<img class ="icon" src="images/tickets_icon.png" alt="Tickets icon.">
+			<h1>TICKETS</h1>
+		</div>
+	<!--Tickets form-->
+		<div class="form">
+			<form action="success.html" method="post">
+				<h2>FIRST NAME:</h2>
+				<p><input type="text" name="firstname" value="" size="255"></p>
+				<h2>SURNAME:</h2>
+				<p><input type="text" name="surname" value="" size="255"></p>
+				<h2>CITY:</h2>
+				<p>
+					<select name="city">
+						<option value="aberdeen">ABERDEEN</option>
+						<option value="dundee">DUNDEE</option>
+						<option value="edinburgh">EDINBURGH</option>
+						<option value="glasgow">GLASGOW</option>
+					</select>
+				</p>
+				<h2>CINEMA:</h2>
+				<p>
+					<select name="cinema">
+						<option value="odeon">ODEON</option>
+						<option value="omni">OMNI</option>
+						<option value="cineworld">CINEWORLD</option>
+					</select>
+				</p>
+				<h2>NO. OF ADULT TICKETS:</h2>
+				<p>
+					<select name="adult_tickets">
+						<option value="0">0</option>
+						<option value="1a">1</option>
+						<option value="2a">2</option>
+						<option value="3a">3</option>
+						<option value="4a">4</option>
+						<option value="5a">5</option>
+					</select>
+				</p>
+				<h2>NO. OF JUNIOR TICKETS:</h2>
+				<p>
+					<select name="junior_tickets">
+						<option value="0">0</option>
+						<option value="1j">1</option>
+						<option value="2j">2</option>
+						<option value="3j">3</option>
+						<option value="4j">4</option>
+						<option value="5j">5</option>
+					</select>
+				</p>
+				<h2>TIME:</h2>
+				<p>
+					<select name="time">
+						<option value="h15m30">15:30</option>
+						<option value="h18m00">18:00</option>
+						<option value="h21m00">21:00</option>
+						<option value="h22m30">22:30</option>
+					</select>
+				</p>
+				<h2>DATE:</h2>
+				<p>
+					<select name="date">
+						<option value="151215">15-12-2015</option>
+						<option value="161215">16-12-2015</option>
+						<option value="171215">17-12-2015</option>
+						<option value="181215">18-12-2015</option>
+					</select>
+				</p>
+				<h2>E-MAIL:</h2>
+				<p><input type="email" name="email" value="" size="255"></p>
+				<h2>PROMOTIONAL CODE:</h2>
+				<p><input type="text" name="promotional_code" value="" size="255"></p>
+				<p>
+					<span class="submit">
+						<a href="index.html"><input type="image" src="images/submit_button.jpg" alt="Submit button."></a>
+					</span>
+				</p>
+			</form>
+		</div>
+
+	
+	<!--Footer-->
+		<footer>
+			<ul>
+				<p><img src="images/paramount-icon.png" alt="Paramount logo."></p>
+				<p>2015 &copy; FABULOUS FILMS LTD, DEVELOPED BY MARCIN AUGUSTYN</p>
+			</ul>
+		</footer>
+	<!--Jquery scripts-->
+		<script>
+			<!--Responsive navigation-->
+			$( ".handle" ).click(function() {
+				$( "nav ul" ).toggleClass( "showing" );
+			});
+			<!--Super Simple Slider-->
+			jQuery(function($) {
+				$('.slider2').sss();
+			});
+		<!--fancyBox trailer-->
+			$(document).ready(function() {
+				$(".various").fancybox({
+					maxWidth	: 800,
+					maxHeight	: 600,
+					fitToView	: false,
+					width		: '70%',
+					height		: '70%',
+					autoSize	: false,
+					closeClick	: false,
+					openEffect	: 'none',
+					closeEffect	: 'none'
+				});
+			});
+		<!--fancyBox wallpaper gallery-->
+			$(document).ready(function() {
+				$(".fancybox-button").fancybox({
+					prevEffect		: 'none',
+					nextEffect		: 'none',
+					closeBtn		: false,
+					helpers		: {
+						title	: { type : 'inside' },
+						buttons	: {}
+					}
+				});
+			});
+		</script>
+	</body>
+</html>
